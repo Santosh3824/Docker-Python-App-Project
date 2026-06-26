@@ -3,5 +3,5 @@ MAINTAINER Santosh
 COPY . /app
 WORKDIR /app
 EXPOSE 5000
-RUN pip install -r requirements.txt
+RUN pip install -r requirments.txt
 ENTRYPOINT ["python", "application.py"]
